@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port City International University</title>
+    <!-- Tailwind CSS with DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/Port_City_International_University_Logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar bg-base-100 shadow-lg sticky top-0 z-50">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="pages/about.html" target=" _blank">The University</a></li>
+                    <li><a href="pages/management.html" target="_blank">Management</a></li>
+                    <li><a href="pages/admission.html" target="_blank">Admission</a></li>
+                    <li><a href="pages/academic.html" target="_blank">Academic</a></li>
+                    <li><a href="pages/conference.html" target="_blank">Conference</a></li>
+                    <li><a href="pages/research.html" target="_blank">Research</a></li>
+                    <li><a href="pages/career.html" target="_blank">Career</a></li>
+                    <li><a href="pages/contact.html" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost normal-case text-xl" href="index.html">
+                <img src="images/Port_City_International_University_Logo.png" alt="PCIU Logo" class="h-10">
+                <span class="ml-2">PCIU</span>
+            </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="index.html">Home</a></li>
+                <li tabindex="0">
+                    <details>
+                        <summary>The University</summary>
+                        <ul class="p-2 bg-base-100">
+                            <li><a href="pages/about.html" target="_blank">About the university</a></li>
+                            <li><a href="pages/about.html#history" target="_blank">Historical Outline</a></li>
+                            <li><a href="pages/about.html#syndicate" target="_blank">Syndicate</a></li>
+                            <li><a href="pages/about.html#visitors" target="_blank">Distinguished Visitors</a></li>
+                            <li><a href="pages/about.html#council" target="_blank">Academic Council</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li tabindex="0">
+                    <details>
+                        <summary>Management</summary>
+                        <ul class="p-2 bg-base-100">
+                            <li><a href="pages/management.html#offices" target="_blank">Offices</a></li>
+                            <li><a href="pages/management.html#proctorial" target="_blank">Proctorial Body</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li tabindex="0">
+                    <details>
+                        <summary>Admission</summary>
+                        <ul class="p-2 bg-base-100">
+                            <li><a href="pages/admission.html#advertisement" target="_blank">Admission Advertisement</a></li>
+                            <li><a href="pages/admission.html#requirements" target="_blank">Admission Requirement</a></li>
+                            <li><a href="pages/admission.html#schedule" target="_blank">Admission Schedule</a></li>
+                            <li><a href="pages/admission.html#test" target="_blank">Admission Test</a></li>
+                            <li><a href="pages/admission.html#direct" target="_blank">Direct Admission</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a href="pages/academic.html" target="_blank">Academic</a></li>
+                <li><a href="pages/conference.html" target="_blank">Conference</a></li>
+                <li><a href="pages/research.html" target="_blank">Research</a></li>
+                <li><a href="pages/career.html" target="_blank">Career</a></li>
+                <li><a href="pages/contact.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a href="pages/admission.html" target="_blank" class="btn btn-primary">Apply Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero min-h-screen" style="background-image: url('images/welcome-to-port-city.jpg');">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Welcome to Port City International University</h1>
+                <p class="mb-5">A premier institution of higher education committed to excellence in teaching, research, and community engagement.</p>
+                <div class="flex gap-4 justify-center">
+                    <a href="pages/admission.html" target="_blank" class="btn btn-primary">Admission Info</a>
+                    <a href="pages/academic.html" target="_blank" class="btn btn-outline btn-secondary">Academic Programs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="py-16 px-4">
+        <h2 class="text-4xl font-bold text-center mb-12">Quick Links</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <a href="pages/admission.html" target="_blank" class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all">
+                <div class="card-body items-center text-center">
+                    <i class="fas fa-user-graduate text-5xl text-primary mb-4"></i>
+                    <h3 class="card-title">Admission</h3>
+                    <p>Learn about our admission process and requirements</p>
+                </div>
+            </a>
+            <a href="pages/academic.html" target="_blank" class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all">
+                <div class="card-body items-center text-center">
+                    <i class="fas fa-book-open text-5xl text-secondary mb-4"></i>
+                    <h3 class="card-title">Academic Programs</h3>
+                    <p>Explore our diverse range of academic offerings</p>
+                </div>
+            </a>
+            <a href="pages/research.html" target="_blank" class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all">
+                <div class="card-body items-center text-center">
+                    <i class="fas fa-flask text-5xl text-accent mb-4"></i>
+                    <h3 class="card-title">Research</h3>
+                    <p>Discover our research initiatives and publications</p>
+                </div>
+            </a>
+            <a href="pages/contact.html" target="_blank" class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all">
+                <div class="card-body items-center text-center">
+                    <i class="fas fa-map-marker-alt text-5xl text-info mb-4"></i>
+                    <h3 class="card-title">Visit Us</h3>
+                    <p>Find our location and contact information</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- News & Events -->
+    <div class="py-16 px-4 bg-base-200">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">News & Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/convocation14.jpg" alt="Event" class="h-48 w-full object-cover"></figure>
+                    <div class="card-body">
+                        <h3 class="card-title">2nd Convocation Ceremony</h3>
+                        <p>Join us for our 2nd Convocation Ceremony on December 15, 2023</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-link">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/event2.jpg" alt="Event" class="h-48 w-full object-cover"></figure>
+                    <div class="card-body">
+                        <h3 class="card-title">International Conference</h3>
+                        <p>Call for papers for our upcoming international conference</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-link">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/admission-requirement_banner-2 admission.jpg" alt="Event" class="h-48 w-full object-cover"></figure>
+                    <div class="card-body">
+                        <h3 class="card-title">Spring 2025 Admission</h3>
+                        <p>Admission for Spring 2025 semester is now open</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-link">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#" class="btn btn-outline">View All News & Events</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <div>
+            <img src="images/Port_City_International_University_Logo.png" alt="PCIU Logo" class="h-12">
+            <p>Port City International University<br>Providing quality education since 2013</p>
+        </div> 
+        <div>
+            <span class="footer-title">Quick Links</span> 
+            <a href="index.html" class="link link-hover">Home</a>
+            <a href="pages/about.html" class="link link-hover">About</a>
+            <a href="pages/admission.html" class="link link-hover">Admission</a>
+            <a href="pages/academic.html" class="link link-hover">Academic</a>
+        </div> 
+        <div>
+            <span class="footer-title">Contact</span> 
+            <a href="pages/contact.html" class="link link-hover">Location</a>
+            <a href="pages/contact.html" class="link link-hover">Phone: 01851120791</a>
+            <a href="pages/contact.html" class="link link-hover">Email: admission@portcity.edu.bd</a>
+        </div>
+        <div>
+            <span class="footer-title">Social</span> 
+            <div class="grid grid-flow-col gap-4">
+                <a href="https://www.facebook.com/p/Port-City-International-University-100064572554682/" target="_blank"><i class="fab fa-facebook-f text-xl"></i></a>  
+                <a href="https://www.instagram.com/explore/locations/879572629/port-city-international-university---pciu/" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="https://www.youtube.com/@portcityinternationalunive2828" target="_blank"><i class="fab fa-youtube text-xl"></i></a>
+                <a href="https://www.linkedin.com/school/port-city-international-university-bangladesh/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin-in text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer px-10 py-4 border-t bg-neutral text-neutral-content border-base-300">
+        <div class="items-center grid-flow-col">
+            <p>© 2023 Port City International University. All rights reserved.</p>
+        </div> 
+        <div class="md:place-self-center md:justify-self-end">
+            <div class="grid grid-flow-col gap-4">
+                <a href="#">Privacy Policy</a> 
+                <a href="#">Terms of Service</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
